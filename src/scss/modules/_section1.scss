@@ -1,0 +1,27 @@
+.section1{
+    display: flex;
+    width: 100%;
+    background-color: rgb(232, 230, 224);
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    .txt1{
+        width: 60%;
+        height: 45%;
+        text-align: center;
+        p{
+            font-size: 27px;
+            color: rgb(122, 132, 141);
+            span:first-of-type{
+                background-color: $bleuciel;
+                color: white;
+            }
+            span:nth-child(2){
+                color: $bleuciel;
+            }
+            span:last-child{
+                font-weight: bold;
+            }
+        }
+    }
+}
